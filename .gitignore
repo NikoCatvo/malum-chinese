@@ -1,0 +1,19 @@
+# 构建产物
+bin/
+obj/
+*.dll
+*.pdb
+*.user
+
+# 本地 interop 参考程序集（体积大，且与游戏版本绑定）
+interop/
+BepInEx/
+
+# IDE
+.vs/
+.idea/
+.vscode/
+*.suo
+
+# macOS
+.DS_Store
